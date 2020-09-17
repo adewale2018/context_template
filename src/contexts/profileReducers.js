@@ -6,6 +6,10 @@ export default (state, action) => {
           (profile) => profile.id !== action.payload
         ),
       };
+    case "ADD_PROFILE":
+      return {
+        profiles: [action.payload, ...state.profiles],
+      };
     default:
       return state;
   }

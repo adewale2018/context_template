@@ -14,13 +14,14 @@ h5,
 h6,
 th, .brand {
   font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .brand {
   margin-left: 2rem;
-  text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .edit,
 .delete {
