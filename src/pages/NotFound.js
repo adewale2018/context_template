@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function NotFound() {
   return (
-    <div>
+    <div className='container'>
       Page Not Found
       <br />
       <Link to='/profiles'>Back to homepage</Link>

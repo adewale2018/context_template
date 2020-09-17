@@ -47,6 +47,13 @@ export const GlobalProvider = ({ children }) => {
       payload: newProfile,
     });
   };
+
+  const editProfile = (profileId) => {
+    dispatch({
+      type: "EDIT_PROFILE",
+      payload: profileId,
+    });
+  };
   return (
     <>
       <GlobalContext.Provider
@@ -54,6 +61,7 @@ export const GlobalProvider = ({ children }) => {
           profiles: state.profiles,
           removeProfile,
           addProfile,
+          editProfile,
         }}
       >
         {children}
