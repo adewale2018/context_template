@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th, .brand {
+  font-family: "Oswald", sans-serif;
+}
+
+.brand {
+  margin-left: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+}
+.edit,
+.delete {
+  font-size: 1.2rem;
+  cursor: pointer;
+}

@@ -5,9 +5,9 @@ import profileReducers from "./profileReducers";
 
 const initialState = {
   profiles: [
-    { id: uuid(), name: "Saheed", email: "saheed@gmail.com", stack: "MERN" },
-    { id: uuid(), name: "John", email: "john@gmail.com", stack: "JAM" },
-    { id: uuid(), name: "Saheed", email: "saheed@gmail.com", stack: "MEAN" },
+    { id: uuid(), name: "Saheed", email: "saheed@gmail.com", stack: "MERN", contact: "23312" },
+    { id: uuid(), name: "John", email: "john@gmail.com", stack: "JAM", contact: "23312" },
+    { id: uuid(), name: "Saheed", email: "saheed@gmail.com", stack: "MEAN", contact: "23312" },
   ],
 };
 
@@ -26,6 +26,7 @@ export const GlobalProvider = ({ children }) => {
     <>
       <GlobalContext.Provider
         value={{
+          profiles: state.profiles,
           removeProfile,
         }}
       >
