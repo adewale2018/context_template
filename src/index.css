@@ -28,3 +28,19 @@ th, .brand {
   font-size: 1.2rem;
   cursor: pointer;
 }
+.notfound{
+  text-align: center;
+  color: steelblue;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.back-home {
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid #000;
+}
+.nf {
+  text-align: center;
+}
